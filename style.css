@@ -1,0 +1,581 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0;
+    animation-name: remove;
+    animation-duration: 0.01;
+    animation-delay: 3.01s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    font-family: 'Roboto';
+}
+
+.loader {
+
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s 3,
+        remove 0.1s 3s 1 forwards;
+    margin-top: 200px;
+    left: 45%;
+        
+
+
+
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+
+    }
+}
+
+@keyframes remove {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.menu {
+    display: none;
+}
+
+
+header {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button1 {
+    border-radius: 17px;
+    background-color: #4468E2;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-left: 19px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+
+}
+
+
+.input label {
+    display: block;
+}
+
+header li {
+    color: #1C4961;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+header li:hover {
+    font-weight: bolder;
+}
+
+
+.section1 {
+    background-image: url(./images/lalo-hernandez-Amo081zdJsI-unsplash.png);
+    width: 90%;
+    margin: auto;
+    height: 608px;
+    position: relative;
+
+}
+
+.grey {
+    width: 100%;
+    height: 608px;
+    background-color: rgba(128, 128, 128, 0.575);
+    position: absolute;
+
+
+
+}
+
+input {
+    color: transparent;
+}
+
+
+.grey h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+
+.grey p {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    width: 522px;
+    margin: 30px auto;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.685);
+    height: 70px;
+    border-radius: 10px;
+
+    padding: 10px;
+
+
+
+
+}
+
+.input label {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.inputLine {
+
+    width: 600px;
+    margin: auto;
+
+
+
+
+}
+
+.input button {
+    padding: 10px;
+    height: 90%;
+    border-radius: 10px;
+    width: 120px;
+    background-color: #4468E2;
+    color: white;
+    ;
+}
+
+.stick {
+    border-right: 3px solid rgba(128, 128, 128, 0.514);
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.section2 {
+    width: 90%;
+    margin: auto;
+
+}
+
+.boxes1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+
+
+.box1 {
+    width: 250px;
+    height: 200px;
+    box-shadow: 10px 20px 50px #88888852;
+
+}
+
+.box1 h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.box1 p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.section3 {
+    margin-top: 150px;
+    width: 100%;
+    background-color: #F1FAFF;
+    padding: 40px;
+
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    font-size: 22px;
+    font-weight: 100;
+
+}
+
+li:hover {
+    border: 2px solid rgba(0, 0, 255, 0.452);
+    border-radius: 50%;
+    transform: scale(1.5);
+    padding: 8px;
+}
+
+.section3 ul {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.514);
+    padding-bottom: 8px;
+}
+
+.boxes2 {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.box2 {
+    margin-top: 40px;
+    width: 500px
+}
+
+
+.box2 .bigImage {
+    width: 500px;
+}
+
+
+.box2 h4 {
+    font-size: 38px;
+    font-weight: bold;
+
+}
+
+.box2 .para {
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.icons p {
+    font-size: 25px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    color: gray;
+}
+
+.section4 {
+    width: 100%;
+    margin: 150px auto;
+}
+
+.photo1 .photo2 .photo3 {
+    width: 45%;
+
+}
+
+.photos {
+    position: relative;
+}
+
+.pp {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    color: white;
+    font-size: 30px;
+    width: 20%;
+    font-weight: bold;
+}
+
+.photo2 {
+    position: relative;
+}
+
+.pp2 {
+    position: absolute;
+    top: 120px;
+    left: 35%;
+    color: white;
+    font-size: 30px;
+    width: 25%;
+    font-weight: bold;
+
+}
+
+.photo3 {
+    position: relative;
+}
+
+.pp3 {
+    position: absolute;
+    top: 120px;
+    left: 35%;
+    color: white;
+    font-size: 30px;
+    width: 30%;
+    font-weight: bold;
+}
+
+
+
+
+.imgs {
+    width: 100%
+}
+
+
+
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.section5 {
+    width: 100%;
+    margin: auto;
+}
+
+.flex p {
+    margin-left: 20px;
+    width: 400px;
+    font-size: 25px;
+}
+
+.name {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.trey {
+    width: 500px;
+
+}
+
+footer {
+    width: 100%;
+}
+
+.last {
+
+    width: 90%;
+    margin: 200px auto;
+    background-color: #E1E8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    margin-bottom: 0px;
+}
+
+
+.feedback {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+h6 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+
+@media(max-width:480px) {
+    .input {
+        flex-direction: column;
+        margin-right: 120px;
+        height: 200px;
+    }
+
+    .inputLine {
+        width: 400px;
+        margin-left: 80px;
+    }
+
+    #search {
+        width: 125px;
+    }
+
+    .stick {
+        border: none;
+        margin-top: 10px;
+    }
+
+
+
+    .section1 p {
+        height: 100px;
+        width: 250px
+    }
+
+    .section1 button {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+
+    .menu img {
+        width: 100%;
+    }
+
+
+    header button {
+        margin-left: 150px
+    }
+
+    .boxes1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section3 ul {
+        display: none;
+    }
+
+    .pp {
+        font-size: 25px;
+        width: 40%;
+        top: 50px;
+        left: 150px
+    }
+
+    .pp2 {
+        font-size: 25px;
+        width: 40%;
+        top: 50px;
+        left: 150px
+    }
+
+    .pp3 {
+        font-size: 25px;
+        width: 40%;
+        top: 50px;
+        left: 150px
+    }
+
+    .trey {
+        margin-top: 50px;
+        border-bottom: 4px solid #4468E2;
+        padding-bottom: 10px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .last p {
+        display: none;
+    }
+
+    .lastImgs {
+        margin: auto;
+    }
+
+
+
+}
+
+
+
+
+
+@media(max-width:1024px) {
+    .box1 {
+        margin-top: 35px;
+    }
+
+    .box2 {
+        margin-top: 40px;
+        width: 400px
+    }
+
+    .box2 .bigImage {
+        width: 400px;
+    }
+
+    .section3 ul {
+        width: 900px;
+    }
+}
